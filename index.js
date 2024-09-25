@@ -6,7 +6,7 @@ OOP - object oriented programming
 
 import { Cat } from "./js/Cat.js";
 import { Dog } from "./js/Dog.js";
-import { Car } from "./Car.js"; 
+import { Car } from "./js/Car.js"; 
 
 const reksas = new Dog('Rex', 'black');
 console.log(reksas.takeBones(1.5));
@@ -52,7 +52,7 @@ CAR
 
 
 
-const myCar = new Car('FORD', 'Corolla', 60, 8);
+const myCar = new Car('FORD', 'RAPTOR', 100, 15);
 
 console.log(myCar.addFuel(30)); 
 console.log(myCar.startEngine());
